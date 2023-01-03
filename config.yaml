@@ -1,6 +1,6 @@
-baseURL: "https://arkalim.org"
+baseURL: "https://amritpaudel.com.np"
 languageCode: en-us
-title: Abdur Rahman
+title: Amrit Paudel 
 theme: PaperMod
 
 menu:
@@ -9,10 +9,6 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
-      weight: 20
     - identifier: projects
       name: Projects
       url: /projects
@@ -48,8 +44,8 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: Incoming [**MSc in Applied Computing**](https://mscac.utoronto.ca/) at the **University of Toronto**, Canada 🇨🇦<br>Backend Engineer 🧑🏻‍💻 at [**BuyerAssist.io**](https://buyerassist.io/), a B2B startup based in India 🇮🇳<br>B.Tech. in Electronics & Communication Engineering at **NIT Trichy**, India 🇮🇳<br>**YouTuber** 🎬 who makes videos on career, higher education & productivity
+    title: "Amrit Paudel"
+    subtitle: Incoming [**BSc CSIT**] at the **Patan Multiple Campus**, Lalitpur<br>Backend Engineer intern🧑🏻‍💻 at [**Codniv Innovation**](https://codniv.com/),  based in Basundhara, Kathmandu 🇳🇵 
     imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
@@ -67,13 +63,11 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:amritpaudel073@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/amrit073"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://github.com/amrit073"
     - name: "cv"
       url: "https://drive.google.com/file/d/1S8STVjAd5KpgrrsSgGhABNrGCFY0larm/view"
 
