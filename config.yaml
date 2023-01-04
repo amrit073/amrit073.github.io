@@ -1,4 +1,4 @@
-baseURL: "https://amritpaudel.com.np"
+baseURL: "/"
 languageCode: en-us
 title: Amrit Paudel 
 theme: PaperMod
@@ -25,9 +25,9 @@ menu:
     #   name: Tags
     #   url: /tags
     #   weight: 60
-    - identifier: notes
-      name: Notes
-      url: https://notes.arkalim.org
+    - identifier: Extras 
+      name: Extras 
+      url: 1.com 
       weight: 70
 
 params:
