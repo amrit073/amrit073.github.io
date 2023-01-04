@@ -49,9 +49,9 @@ params:
     imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
-    # buttons:
-    #   - name: Resume
-    #     url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
+    buttons:
+      - name: Resume
+        url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
 
   # List View
   hideDescriptionInList: false
@@ -69,7 +69,7 @@ params:
     - name: "github"
       url: "https://github.com/amrit073"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1S8STVjAd5KpgrrsSgGhABNrGCFY0larm/view"
+      url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
 
   # text search
   fuseOpts:
