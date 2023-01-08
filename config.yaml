@@ -64,10 +64,12 @@ params:
   socialIcons:
     - name: "email"
       url: "mailto:amritpaudel073@gmail.com"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/amrit073"
     - name: "github"
       url: "https://github.com/amrit073"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/amrit073"
+    - name: "facebook"
+      url: "https://facebook.com/amrit073"
     - name: "cv"
       url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
 
