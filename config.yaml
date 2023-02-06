@@ -9,26 +9,22 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: projects
-      name: Projects
-      url: /projects
-      weight: 30
+    - identifier: Skills 
+      name: Skills
+      url: /skills
+      weight: 20
     - identifier: experience
       name: Experience
       url: /experience
+      weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects
       weight: 40
     - identifier: search
       name: Search
       url: /search
-      weight: 50
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60
-    - identifier: Extras 
-      name: Extras 
-      url: 1.com 
-      weight: 70
+      weight: 60
 
 params:
   # theme
