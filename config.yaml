@@ -37,6 +37,7 @@ params:
 
   # for enchanced SEO
   env: production
+  Description : "A Passionate Backend Developer from Nepal, BscCSIT student at Patan Multiple Campus. Backend Engineer intern at Codniv Innovation"
 
   # Home Page
   profileMode:
@@ -98,6 +99,6 @@ markup:
       unsafe: true
 
 sitemap:
-  changefreq: monthly
+  changefreq: weekly
   filename: sitemap.xml
   priority: 0.5
