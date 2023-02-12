@@ -1,6 +1,6 @@
 ---
 title: "Backend Engineer Intern"
-description: "3 Months internship at as Backend Engineer"
+description: "3 Months internship at Codniv Innovations as Backend Engineer"
 dateString: Dec 2023 - Ongoing
 draft: false
 tags: ["TypeScript", "NodeJS", "Express", "Backend", "Postgres", "Devops"] 
