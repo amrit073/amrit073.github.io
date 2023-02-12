@@ -44,7 +44,7 @@ params:
     enabled: true
     title: "Amrit Paudel"
     subtitle: Passionate **Backend Developer** from Nepal  🇳🇵 <br> **BSc CSIT** student at the **Patan Multiple Campus**, Lalitpur<br>Backend Engineer intern🧑🏻‍💻 at [**Codniv Innovation**](https://codniv.com/),  based in Basundhara 
-    imageUrl: "home/me.jpg"
+    imageUrl: "home/me.webp"
     imageWidth: 220
     imageHeight: 220
     buttons:
@@ -68,6 +68,8 @@ params:
       url: "https://www.linkedin.com/in/amrit073"
     - name: "facebook"
       url: "https://facebook.com/amrit073"
+    - name: "telegram"
+      url: 'https://t.me/amrit073'
     - name: "cv"
       url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
 
