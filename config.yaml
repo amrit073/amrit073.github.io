@@ -50,6 +50,9 @@ params:
     buttons:
       - name: Resume
         url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
+    sitemap:
+        changefreq: weekly
+        priority: 1
 
   # List View
   hideDescriptionInList: false
@@ -104,5 +107,13 @@ sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 0.5
+
+taxonomies:
+  category: categories
+  tag: tags
+
+disableKinds:
+- taxonomy
+- term
 
 enableRobotsTXT: true
