@@ -73,6 +73,7 @@
   {{- if (ne (.Param "hideDescriptionInList") true) }}
   <div class="entry-content">
     <p>{{ .Description }}</p>
+    <p><b>More...</b> </p>
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}
