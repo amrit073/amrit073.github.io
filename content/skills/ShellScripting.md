@@ -1,5 +1,5 @@
 ---
-title: "CommandLine and Bash Scripting"
+title: "CommandLine and Shell Scripting"
 description: "More than two year of experience living inside terminal"
 draft: false
 tags: ["commandline", "Bash", "Shell", "Linux", "terminal", "command", "Scripting","automations"] 
