@@ -10,21 +10,16 @@ weight: 301
 ### Description
 
 ### 
-I have used both Nosql and Sql databases as mine projects demands.
+With over a year of experience, I have worked extensively with various flavors of databases, including both SQL and NoSQL databases.
 
-I have been using Postgres as primary databases for projects during my internship period. I have dealt with migrations, triggers and normalizations postgres. I have experience of both raw and orm (knex) based query of databases I have used.
+During my internship, I primarily used Postgres for projects, where I gained experience in migrations, triggers, and normalizations. I have also worked with both raw and ORM (Knex) based queries for Postgres and MySQL. In my personal projects, I have used MongoDB with Mongoose ORM and Redis for caching.
 
-I had used Mongodb with mongoose orm for my personal Projects.
+Some of the database frameworks I am proficient in include:
 
-I have experience working with Redis in some of my personal Projects.
+Knex / Bookshelf -> PostgreSQL + MySQL
 
-Database frameworks I am experienced with
-- Knex / Bookshelf -> pg + mysql
-- Sequelize -> pg + mysql
-- Mongoose -> Mongodb
+Sequelize -> PostgreSQL + MySQL
 
-Tools I have used for databases operations:
-- PGadmin
-- psql terminal 
-- Mongodb compass 
-- dbeaver
+Mongoose -> MongoDB
+
+For database operations, I have used a variety of tools such as PGadmin, psql terminal, Mongodb compass, and DBeaver. My experience with these tools has enabled me to manage and operate databases efficiently and effectively.

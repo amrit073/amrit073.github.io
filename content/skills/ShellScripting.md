@@ -10,8 +10,10 @@ weight: 302
 ### Description
 
 ### 
- I have been using linux as my primary OS for more than two years. During this period, I have learned to be comfortable with commandline tools and terminal. I have been using bash for automating repetative actions I need to do in daily life. Some of my scripts I use with my machine shortcuts :
+ With over two years of experience, I am well-versed in the Linux command-line environment and shell scripting. As a primary user of Linux OS, I have gained a deep understanding of various command-line tools and their terminal usage. 
+
+I have used bash to automate repetitive actions in my daily life, and have created several scripts that I use with machine shortcuts, such as:
 - 🔗[IndexScrap.sh](https://github.com/amrit073/MegaIndexScrap) :  Recursively download files from an index. 
-- 🔗[TUnotice.sh](https://github.com/amrit073/scripts/blob/master/tunotice.sh) : For checking if TU has published new notice. It regularly checks notice and notifies me only of there is something new.
-- 🔗[Run.sh](https://github.com/amrit073/scripts/blob/master/run.sh) : Alternative for VScode live server. It watches for file changes, automatically switches to browser window showing new changes. It comes handy when working with frontend projects.
-- 🔗[Samachar.sh](https://github.com/amrit073/scripts/blob/3672619cd8683e0391255a102edde92c41ce7d7a/samachar.sh) : Fetch news from onlinekhabar rss, extract headlines and show it in notifications
+- 🔗[TUnotice.sh](https://github.com/amrit073/scripts/blob/master/tunotice.sh) : Regularly checks for new notices from TU and notifies me only if there is something new.
+- 🔗[Run.sh](https://github.com/amrit073/scripts/blob/master/run.sh) : Alternative to VScode live server. It watches for file changes and automatically switches to a browser window showing the new changes. It is handy when working with frontend projects.
+- 🔗[Samachar.sh](https://github.com/amrit073/scripts/blob/3672619cd8683e0391255a102edde92c41ce7d7a/samachar.sh) :  Fetches news from the onlinekhabar RSS feed, extracts headlines, and shows them in notifications.
