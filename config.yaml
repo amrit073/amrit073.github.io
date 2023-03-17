@@ -37,13 +37,13 @@ params:
 
   # for enchanced SEO
   env: production
-  Description : "A Passionate Backend Developer from Nepal, BscCSIT student at Patan Multiple Campus. Backend Engineer intern at Codniv Innovation"
+  Description : "Backend Developer from Nepal 🇳🇵 | BSc CSIT student at Patan Multiple Campus | Backend Engineer intern🧑🏻‍💻 at Codniv Innovation, Basundhara"
 
   # Home Page
   profileMode:
     enabled: true
     title: "Amrit Paudel"
-    subtitle: Passionate **Backend Developer** from Nepal  🇳🇵 <br> **BSc CSIT** student at the **Patan Multiple Campus**, Lalitpur<br>Backend Engineer intern🧑🏻‍💻 at [**Codniv Innovation**](https://codniv.com/),  based in Basundhara 
+    subtitle: Backend Developer from Nepal 🇳🇵 <br> BSc CSIT student at Patan Multiple Campus <br> Backend Engineer intern🧑🏻‍💻 at [**Codniv Innovations**](https://codniv.com/), Basundhara 
     sitemap:
       changefreq: weekly
       priority: 0.9
