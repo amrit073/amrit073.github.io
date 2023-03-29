@@ -1,17 +1,17 @@
 ---
 title: "Backend Engineer Intern"
 description: "3 Months internship at Codniv Innovations as Backend Engineer"
-dateString: Dec 2023 - Ongoing
+dateString: Dec 2022 - March 2023
 draft: false
 tags: ["TypeScript", "NodeJS", "Express", "Backend", "Postgres", "Devops"] 
 showToc: false
-weight: 301
+weight: 300
 --- 
 
 ### Description
 
 ### 
-I was an intern for 3 March at <b> 🔗[Codniv Innovations](https://codniv.com/) </b>, software company based in Basundhara, Kathmandu. 
+I was an intern for 3 Month at <b> 🔗[Codniv Innovations](https://codniv.com/) </b>, software company based in Basundhara, Kathmandu. 
 <!-- - Developed an event-driven serverless integration framework using AWS services like **AppFlow**, **S3**, **Lambda** and **EventBridge**, to sync customer data between Salesforce and BuyerAssist. Through this, I learned to build systems to support bi-directional sync of large volumes of data from multiple sources, perform **CRUD** operations on **MongoDB** as well as **schema design**. -->
 <!-- - Developed a configuration-driven framework to extend the pattern matching capability of **AWS EventBridge**, which **prevented thousands of false invocations of AWS Lambda functions**. -->
 <!-- - Implemented a system to track asynchronous data transfer jobs through AWS AppFlow, which **saved hours of debugging time**. -->
