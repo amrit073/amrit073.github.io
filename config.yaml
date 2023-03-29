@@ -1,7 +1,14 @@
 baseURL: "/"
+disableKinds:
+- taxonomy
+- term
+enableRobotsTXT: true
 languageCode: en-us
-title: Amrit Paudel 
-theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:
@@ -26,42 +33,58 @@ menu:
       url: /search
       weight: 60
 
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
 params:
   # theme
-  showToc: true
-  TocOpen: false
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  hideMeta: false
-  defaultTheme: dark
-
-  # for enchanced SEO
-  env: production
-  Description : "Backend Developer from Nepal 🇳🇵 | BSc CSIT student at Patan Multiple Campus | Backend Engineer intern🧑🏻‍💻 at Codniv Innovation, Basundhara"
-
-  # Home Page
-  profileMode:
-    enabled: true
-    title: "Amrit Paudel"
-    subtitle: Backend Developer from Nepal 🇳🇵 <br> BSc CSIT student at Patan Multiple Campus <br> Backend Engineer intern🧑🏻‍💻 at [**Codniv Innovations**](https://codniv.com/), Basundhara 
-    sitemap:
-      changefreq: weekly
-      priority: 0.9
-    imageUrl: "home/me.webp"
-    imageWidth: 220
-    imageHeight: 220
-    buttons:
-      - name: Resume
-        url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
-
-  # List View
-  hideDescriptionInList: false
-
-  # cover image for posts
+  assets:
+    disableFingerprinting: true
   cover:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
+  defaultTheme: dark
+  Description : "Backend Developer from Nepal 🇳🇵 | BSc CSIT student at Patan Multiple Campus | Backend Engineer intern🧑🏻‍💻 at Codniv Innovation, Basundhara"
+  env: production
+  fuseOpts:
+    distance: 1000
+    isCaseSensitive: false
+    keys: ["title", "permalink", "summary", "content"]
+    location: 0
+    minMatchCharLength: 0
+    shouldSort: true
+    threshold: 0.4
+  # for enchanced SEO
+  hideDescriptionInList: false
+  hideMeta: false
 
+  # Home Page
+  profileMode:
+    buttons:
+      - name: Resume
+        url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
+    enabled: true
+    imageHeight: 220
+    imageUrl: "home/me.webp" 
+    imageWidth: 220
+    sitemap:
+      changefreq: weekly
+      priority: 0.9
+    subtitle: Backend Developer from Nepal 🇳🇵 <br> BSc CSIT student at Patan Multiple Campus <br> Associate Backend Engineer 🧑🏻‍💻 at [**Codniv Innovations**](https://codniv.com/), Basundhara 
+    title: "Amrit Paudel"
+  # List View
+  ShowBreadCrumbs: true
+
+  # cover image for posts
+  ShowCodeCopyButtons: true
+  showToc: true
+  # text search
   socialIcons:
     - name: "email"
       url: "mailto:amritpaudel073@gmail.com"
@@ -76,33 +99,7 @@ params:
     - name: "cv"
       url: "https://drive.google.com/file/d/1b7c6fyibqC1dYs5t6Gga9qw8gaK5P3kF/view"
 
-  # text search
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-  assets:
-    disableFingerprinting: true
-
-
-# for search using Fuse.js
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
-
-# allow HTML in MD
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
+  TocOpen: false
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
@@ -112,8 +109,5 @@ taxonomies:
   category: categories
   tag: tags
 
-disableKinds:
-- taxonomy
-- term
-
-enableRobotsTXT: true
+theme: PaperMod
+title: Amrit Paudel 
